@@ -1,5 +1,5 @@
-require "ocho/version"
+require 'ocho/version'
 
 module Ocho
-  # Your code goes here...
+  autoload :Converter, 'ocho/converter'
 end
