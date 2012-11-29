@@ -1,6 +1,6 @@
 # Ocho
 
-TODO: Write a gem description
+Read a file and convert the obtained string to utf-8. Suitable for Ruby < 1.9
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+  utf8_text = Ocho.read(some_extoteric_filename) #=> ...
+
+  Ocho.encoding(utf8_text) #=> ascii
+```
 
 ## Contributing
 
